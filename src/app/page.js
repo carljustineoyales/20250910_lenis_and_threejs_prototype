@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ThreeScene from "./sections/ThreeScene";
 
 export default function Home() {
   return (
@@ -98,6 +99,9 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <div className="fixed top-0 left-0 w-screen h-screen -z-1">
+      <ThreeScene/>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "name": "lenis_and_canvass_video_playback",
+  "name": "lenis_and_threejs_prototype",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-three/csg": "^4.0.0",
+    "@react-three/drei": "^10.7.5",
+    "@react-three/fiber": "^9.3.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "@types/three": "^0.180.0",
+    "lenis": "^1.3.11",
+    "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.2"
+    "three": "^0.180.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
